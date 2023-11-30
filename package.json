@@ -1,0 +1,25 @@
+{
+  "name": "SentimentAnalysis-ITIS6177",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbansal0609/SentimentAnalysis-ITIS6177.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbansal0609/SentimentAnalysis-ITIS6177/issues"
+  },
+  "homepage": "https://github.com/nbansal0609/SentimentAnalysis-ITIS6177#readme",
+  "dependencies": {
+    "@azure/ai-text-analytics": "^5.1.0",
+    "@azure/ms-rest-azure-js": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
