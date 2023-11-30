@@ -15,11 +15,14 @@ This code requires the following libraries to be installed:
 
 ## **Configuration:**
 
-Please configure the `endpoint` and `key` variables with your own endpoint and key which can be obtained from Azure portal or environment variables.
+Please configure the `endpoint` and `key` variables with your own endpoint and key which can be obtained from [Azure portal](https://azure.microsoft.com/en-us/products/ai-services/ai-language/) or environment variables.
 
-https://azure.microsoft.com/en-us/products/ai-services/ai-language/
+![Local Image](Screenshots/env.png)
 
-To learn how to register the app in Azure portal please follow:
+Test evironment file is present in the root directory for reference. 
+Create a .env file in the root directory and copy paste your KEY and ENDPOINT variables there.
+
+To learn how to register the app in Azure portal and get these variables please visit this quick guide:
 
 https://learn.microsoft.com/en-us/azure/ai-services/language-service/sentiment-opinion-mining/quickstart?tabs=macos&pivots=programming-language-csharp
 
@@ -29,7 +32,6 @@ Install the dependencies:
 1. `npm install`
 
 Start the server using this commands:
-
 
 2. `node app.js`
 
@@ -41,7 +43,7 @@ The code sets up an Express app that listens for incoming POST requests to the `
 
 ```json
 {
-    "sentence": "I love apples!"
+    "sentence": "I love Apples!"
 }
 ```
 
@@ -58,7 +60,7 @@ example, http://localhost:3000/sentiment-analysis
 4. In the request body tab, select raw and set the data type to JSON.
 5. In the JSON body, add a sentence field with the sentence you want to analyze for sentiment. 
 
-**For example:**
-![Local Image](image.png)
+**Sample Example:**
+![Local Image](Screenshots/image.png)
 
 
