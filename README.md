@@ -4,7 +4,6 @@ This Project serves as an illustration of utilizing the Microsoft Azure Text Ana
 
 **Note:** For using this API you must have API endpoint and key.
 
----
 ## **Dependencies:**
 
 This code requires the following libraries to be installed:
@@ -13,7 +12,6 @@ This code requires the following libraries to be installed:
 - `node and express`: For creating the server and handle incoming requests
 - `@azure/ai-text-analytics`: To use the Text Analytics API specifically TextAnalyticsClient, AzureKeyCredential
 - `dotenv`: To load environment variables from a .env file
----
 
 ## **Configuration:**
 
@@ -25,7 +23,6 @@ To learn how to register the app in Azure portal please follow:
 
 https://learn.microsoft.com/en-us/azure/ai-services/language-service/sentiment-opinion-mining/quickstart?tabs=macos&pivots=programming-language-csharp
 
----
 ## **Instructions to run the Code:**
 
 Install the dependencies:
@@ -38,7 +35,6 @@ Start the server using this commands:
 
 **Note:** Please make sure to set the `ENDPOINT` and `KEY` environment variables in a `.env` file in the root directory of the project.
 
----
 ## **Applications:**
 
 The code sets up an Express app that listens for incoming POST requests to the `/sentiment-analysis`. The code then establishes an Express application designed to handle incoming POST requests directed to the `/sentiment-analysis` endpoint. A valid request should contain a `sentence` parameter with a string value in the request body such as:
@@ -53,8 +49,6 @@ Upon receiving a valid request, the server retrieves the `sentence` parameter an
 
 In the event of an error, the server will respond with a JSON object containing an error message that the body of the request must include a `sentence` parameter with a string value.
 
-
----
 ## **Testing:**
 
 1. Open Postman and create a new request.
