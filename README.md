@@ -61,6 +61,13 @@ example, http://localhost:3000/sentiment-analysis
 5. In the JSON body, add a sentence field with the sentence you want to analyze for sentiment. 
 
 **Sample Example:**
-![Local Image](Screenshots/image.png)
+![Local Image](Screenshots/localhost-request.png)
+
+**Sample Request for Hosted URL**
+
+URL -> 
+http://66.135.21.182:3000/sentiment-analysis
+
+![Local Image](Screenshots/hosted-request.png)
 
 
