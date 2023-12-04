@@ -63,7 +63,7 @@ example, http://localhost:3000/sentiment-analysis
 **Sample Example:**
 ![Local Image](Screenshots/localhost-request.png)
 
-**Sample Request for Hosted URL**
+**Sample Request for Hosted URL:**
 
 URL -> 
 http://66.135.21.182:3000/sentiment-analysis
